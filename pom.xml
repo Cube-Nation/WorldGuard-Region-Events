@@ -38,6 +38,20 @@
       </repository>
   </repositories>
   
+     <distributionManagement>
+
+        <repository>
+            <id>de.cube-nation.nexus.release</id>
+            <url>http://nexus.cube-nation.de/content/repositories/releases</url>
+        </repository>
+
+        <snapshotRepository>
+            <id>de.cube-nation.nexus.snapshot</id>
+            <url>http://nexus.cube-nation.de/content/repositories/snapshots</url>
+        </snapshotRepository>
+
+    </distributionManagement>
+  
     <dependencies>
         <!-- Bukkit Dependency -->
         <dependency>
